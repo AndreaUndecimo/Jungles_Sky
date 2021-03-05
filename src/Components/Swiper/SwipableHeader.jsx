@@ -54,6 +54,11 @@ const SwipableHeader = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="header_wrap">
+            <img
+              className="movie_locandina"
+              src="https://static.sky.it/images/skyit/ext/mcs/tv/sky-cinema/visore-ht-xs.jpg"
+              alt="movie_locandina"
+            />
             <div className="header_home_title slide-2">
               <h2 className="gradient_title">Pacchetto Sky Cinema</h2>
               <p>Il film giusto per ogni gusto</p>
@@ -97,11 +102,6 @@ const SwipableHeader = () => {
               </div>
             </div>
           </div>
-          <img
-            className="cover_image cinema"
-            src="https://static.sky.it/images/skyit/ext/mcs/tv/sky-cinema/visore-ht-xs.jpg"
-            alt="movie_locandina"
-          />
         </SwiperSlide>
       </Swiper>
     </div>

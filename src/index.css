@@ -38,3 +38,24 @@ a:focus {
   text-decoration: none;
   color: black;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.cover_image {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.main_container {
+  padding: 0 20px;
+  margin: 0 auto;
+}

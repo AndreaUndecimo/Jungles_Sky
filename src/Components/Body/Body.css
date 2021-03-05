@@ -1,0 +1,38 @@
+.mosaic {
+  margin: 2rem 0;
+  display: block;
+  position: relative;
+}
+
+.card_offer {
+  width: 100%;
+  padding: 0 0.75rem;
+  max-width: 80.0625rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.offer_card_text {
+  background: linear-gradient(180deg, #000ff5, #00d2ff);
+  color: #fff;
+}
+
+.offer_info h2 {
+  font-size: 2rem;
+  padding: 20px 0;
+  line-height: 1;
+  text-align: center;
+}
+
+.offer_info p {
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.card_btn {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}

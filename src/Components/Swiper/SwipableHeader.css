@@ -14,13 +14,10 @@
 
 .header_home_title {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   bottom: 60px;
   left: 50%;
-  text-align: center;
   transform: translateX(-50%);
+  text-align: center;
   width: 100%;
   padding: 0 15px;
 }
@@ -36,6 +33,12 @@ p.header_home_title {
   line-height: 1;
   margin-bottom: 10px;
 }
+.movie_locandina {
+  top: 67px;
+  position: absolute;
+  width: 100%;
+}
+
 .gradient_title.sky_cinema_title {
   font-size: 1.4rem;
 }
@@ -49,24 +52,6 @@ p.header_home_title {
 .skyq_logo {
   width: auto;
   height: 2rem;
-}
-
-.cover_image {
-  position: absolute;
-  top: 15%;
-  left: 0;
-  width: 100%;
-  object-fit: cover;
-  margin: 0 auto;
-  z-index: 0;
-}
-
-.cinema {
-  top: 10%;
-  left: 50%;
-  width: 80%;
-  margin: 10px auto;
-  transform: translateX(-50%);
 }
 
 ul.cinema_list {
