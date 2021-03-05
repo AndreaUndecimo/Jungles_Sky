@@ -5,6 +5,7 @@
 .header_home .header_wrap {
   position: relative;
   height: 100%;
+  z-index: 5;
 }
 
 .swiper-container {
@@ -13,9 +14,118 @@
 
 .header_home_title {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   bottom: 60px;
   left: 50%;
   text-align: center;
   transform: translateX(-50%);
   width: 100%;
+  padding: 0 15px;
+}
+
+.header_home_title p {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header_home_title h2 {
+  font-size: 2rem;
+  line-height: 1;
+}
+.gradient_title.sky_cinema_title {
+  font-size: 1.4rem;
+}
+
+.header_home_title button {
+  color: white;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.skyq_logo {
+  width: auto;
+  height: 2rem;
+}
+
+.cover_image {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+ul.cinema_list {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul.cinema_list p {
+  margin: 5px 10px;
+}
+
+ul.cinema_list li {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.offer {
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: 0 1px 0px #3333, 0px -1px 0px #3333;
+}
+
+.price_main {
+  margin: 1rem 0;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+}
+
+.price_side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+.price_side .price_cents {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.price_main .price_big {
+  font-size: 3.375rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.gradient_title {
+  background: linear-gradient(
+    90deg,
+    #ff9e00,
+    red 30.93%,
+    #b5007d 61.67%,
+    #21429c 88.09%,
+    #0071ff
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
