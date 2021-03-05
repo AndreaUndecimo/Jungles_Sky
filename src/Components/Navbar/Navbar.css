@@ -89,17 +89,6 @@
   margin-right: 5px;
 }
 
-.btn {
-  height: 2rem;
-  line-height: 2rem;
-  border-radius: 1rem;
-  background-color: #007aff;
-  max-width: 20rem;
-  width: 124px;
-  cursor: pointer;
-  margin: 0 10px;
-}
-
 .label {
   color: white;
   font-weight: 600;
@@ -109,7 +98,41 @@
   line-height: 18px;
 }
 
-@media (max-width: 991.9px) {
+.offer_btn {
+  margin-left: 10px;
+}
+
+/* Media Queries */
+/* Tablet */
+@media (min-width: 902px) {
+  .burger_menu {
+    display: none;
+  }
+
+  .menu_list ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu_list ul li {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    font-size: 14px;
+  }
+
+  .left_menu {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .sky_logo {
+    margin-right: 10px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 901px) {
   .hidden_menu {
     position: absolute;
     left: 0;

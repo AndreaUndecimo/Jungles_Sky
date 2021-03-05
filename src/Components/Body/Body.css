@@ -1,7 +1,19 @@
-.mosaic {
+.body .viaggi,
+.body .mosaic {
+  overflow: hidden;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.mosaic,
+.viaggi {
   margin: 2rem 0;
   display: block;
   position: relative;
+}
+
+.viaggi {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
 .card_offer {
@@ -18,17 +30,48 @@
   color: #fff;
 }
 
+.viaggi_card_text {
+  text-align: center;
+  padding: 2rem 1.5rem 2.5rem;
+}
+
+.title_viaggio h2,
 .offer_info h2 {
   font-size: 2rem;
   padding: 20px 0;
-  line-height: 1;
+  line-height: 1.2;
   text-align: center;
+}
+
+.text_sky_gradient {
+  background: linear-gradient(90deg, #6e00ff, #00ffdc);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.regular {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+.scopri_tv_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000ff5;
 }
 
 .offer_info p {
   padding: 10px 0;
   text-align: center;
   font-weight: 700;
+  font-size: 1.3rem;
 }
 
 .card_btn {

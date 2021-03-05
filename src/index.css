@@ -59,3 +59,27 @@ img {
   padding: 0 20px;
   margin: 0 auto;
 }
+
+.btn {
+  border: 0;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-size: 12px;
+  box-shadow: none;
+  text-transform: uppercase;
+}
+
+.btn-blue {
+  color: #fff;
+  background-color: #1b7cff;
+}
+
+.btn-blue-dark {
+  color: #fff;
+  background-color: #064497;
+}
+
+.btn-white {
+  color: #3093ff;
+  background-color: #fff;
+}
