@@ -118,6 +118,8 @@
     transition: transform 0.4s ease;
     box-shadow: 0 0 5px #0000000d;
     padding: 5px 20px;
+    background-color: #fff;
+    height: 100vh;
   }
 
   .open_menu .hidden_menu {

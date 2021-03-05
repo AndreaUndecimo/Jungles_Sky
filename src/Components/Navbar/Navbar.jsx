@@ -7,11 +7,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleMenu = () => {
-    const header_wrapper = document.querySelector(".header_wrapper")
+    const navbar_wrapper = document.querySelector(".navbar_wrapper")
 
     isOpen
-      ? header_wrapper.classList.add("open_menu")
-      : header_wrapper.classList.remove("open_menu")
+      ? navbar_wrapper.classList.add("open_menu")
+      : navbar_wrapper.classList.remove("open_menu")
 
     setIsOpen(!isOpen)
   }

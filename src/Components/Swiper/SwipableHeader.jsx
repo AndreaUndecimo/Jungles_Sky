@@ -2,6 +2,7 @@ import React from "react"
 
 //  * Icons
 import { ReactComponent as Check } from "../../assets/check.svg"
+import { ReactComponent as Arrow } from "../../assets/arrow.svg"
 
 // ** Swiper modules
 import "./SwipableHeader.css"
@@ -85,11 +86,22 @@ const SwipableHeader = () => {
                   <button className="btn">Scopri l'offerta</button>
                 </div>
               </div>
-              <button className="btn btn-blue">Scopri di più</button>
+              <div className="configure">
+                <p>
+                  <strong>oppure crea la tua offerta in autonomia.</strong>
+                </p>
+                <div className="configure_link">
+                  <a href="/">Configura</a>
+                  <Arrow />
+                </div>
+              </div>
             </div>
-            <div className="configure"></div>
           </div>
-          <img className="img-cover" src="/images/img-2.jpg" alt="img-2" />
+          <img
+            className="cover_image cinema"
+            src="https://static.sky.it/images/skyit/ext/mcs/tv/sky-cinema/visore-ht-xs.jpg"
+            alt="movie_locandina"
+          />
         </SwiperSlide>
       </Swiper>
     </div>
