@@ -1,14 +1,14 @@
-.header_wrapper {
+.navbar_wrapper {
   position: fixed;
   top: 0;
   left: 0;
-  box-shadow: 0 0 10px #3333;
+  box-shadow: 0 0 3px #3333;
   width: 100%;
   padding: 15px 10px;
   z-index: 20;
 }
 
-.header_flex {
+.navbar_flex {
   justify-content: space-between;
   display: flex;
   align-items: center;

@@ -17,9 +17,9 @@ const Navbar = () => {
   }
 
   return (
-    <div className="header_wrapper">
-      <div className="header_flex">
-        <div className="header_left">
+    <div className="navbar_wrapper">
+      <div className="navbar_flex">
+        <div className="navbar_left">
           <div className="left_menu">
             <div className="burger_menu" onClick={toggleMenu}>
               <span></span>
