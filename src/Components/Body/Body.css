@@ -79,3 +79,15 @@
   display: flex;
   justify-content: center;
 }
+
+@media (min-width: 765px) {
+  .main_container {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .title_viaggio {
+    display: none;
+  }
+}

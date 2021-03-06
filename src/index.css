@@ -65,21 +65,25 @@ img {
   border-radius: 25px;
   padding: 10px 30px;
   font-size: 12px;
+  max-width: 150px;
   box-shadow: none;
   text-transform: uppercase;
 }
 
 .btn-blue {
+  font-weight: 700;
   color: #fff;
   background-color: #1b7cff;
 }
 
 .btn-blue-dark {
+  font-weight: 700;
   color: #fff;
   background-color: #064497;
 }
 
 .btn-white {
+  font-weight: 700;
   color: #3093ff;
   background-color: #fff;
 }

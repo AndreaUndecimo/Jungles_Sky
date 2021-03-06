@@ -43,22 +43,26 @@ const SwipableHeader = () => {
                 Sky&nbsp;Sport e Sky&nbsp;Kids per 30 giorni. E dopo la prova
                 sei libero di decidere: ti abboni o ridai Sky&nbsp;Q.
               </p>
-              <button className="btn">Scopri di più</button>
+              <button className="btn btn-blue">Scopri di più</button>
+            </div>
+            <div className="image_cover">
+              <img
+                className="cover_image"
+                src="https://static.sky.it/images/skyit/ext/mcs/index/visori-offerte/provaskyq-xs.jpg"
+                alt="Sky Q"
+              />
             </div>
           </div>
-          <img
-            className="cover_image"
-            src="https://static.sky.it/images/skyit/ext/mcs/index/visori-offerte/provaskyq-xs.jpg"
-            alt="Sky Q"
-          />
         </SwiperSlide>
         <SwiperSlide>
           <div className="header_wrap">
-            <img
-              className="movie_locandina"
-              src="https://static.sky.it/images/skyit/ext/mcs/tv/sky-cinema/visore-ht-xs.jpg"
-              alt="movie_locandina"
-            />
+            <div className="wrapper_locandina">
+              <img
+                className="movie_locandina"
+                src="https://static.sky.it/images/skyit/ext/mcs/tv/sky-cinema/visore-ht-xs.jpg"
+                alt="movie_locandina"
+              />
+            </div>
             <div className="header_home_title slide-2">
               <h2 className="gradient_title">Pacchetto Sky Cinema</h2>
               <p>Il film giusto per ogni gusto</p>
@@ -88,17 +92,19 @@ const SwipableHeader = () => {
                       <span className="price_date">per 30 giorni</span>
                     </div>
                   </div>
-                  <button className="btn">Scopri l'offerta</button>
+                  <button className="btn btn-blue-dark">
+                    Scopri l'offerta
+                  </button>
+                  <div className="configure_link">
+                    <a href="/">Configura</a>
+                    <Arrow />
+                  </div>
                 </div>
               </div>
               <div className="configure">
                 <p>
                   <strong>oppure crea la tua offerta in autonomia.</strong>
                 </p>
-                <div className="configure_link">
-                  <a href="/">Configura</a>
-                  <Arrow />
-                </div>
               </div>
             </div>
           </div>

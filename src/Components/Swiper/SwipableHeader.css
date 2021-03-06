@@ -20,6 +20,7 @@
   text-align: center;
   width: 100%;
   padding: 0 15px;
+  z-index: 10;
 }
 
 p.header_home_title {
@@ -41,12 +42,6 @@ p.header_home_title {
 
 .gradient_title.sky_cinema_title {
   font-size: 1.4rem;
-}
-
-.header_home_title button {
-  color: white;
-  font-weight: 700;
-  margin-top: 10px;
 }
 
 .skyq_logo {
@@ -84,6 +79,8 @@ ul.cinema_list li {
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 100px;
 }
 
 .price {
@@ -121,6 +118,14 @@ ul.cinema_list li {
   align-items: center;
   margin-top: 5px;
 }
+
+.image_cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 .configure_link a,
 .configure_link svg {
   color: #21429c;
@@ -146,4 +151,132 @@ ul.cinema_list li {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .header_home_title {
+    top: 100px;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cover_image {
+    left: 0;
+    top: 0;
+  }
+
+  .configure_link {
+    margin-left: 20px;
+  }
+
+  .movie_locandina {
+    width: 100%;
+    position: relative;
+  }
+
+  .header_home_title.slide-2 {
+    grid-gap: 10px;
+    position: relative;
+    top: 20px;
+  }
+
+  .wrapper_locandina {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .header_home_title.slide-2 {
+    grid-gap: 10px;
+    position: relative;
+    top: 0;
+  }
+
+  .header_home_title.slide-2 p,
+  .header_home_title.slide-2 ul {
+    display: none;
+  }
+
+  .price_main {
+    justify-content: center;
+  }
+
+  div.price_side {
+    margin-right: 20px;
+  }
+
+  div.configure_link {
+    justify-content: center;
+  }
+
+  .header_home .header_wrap {
+    position: relative;
+    height: 100%;
+    z-index: 5;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 10px;
+  }
+
+  .header_home .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 0;
+    padding: 10px 0 20px;
+  }
+  .header_home
+    .swiper-container-horizontal
+    > .swiper-pagination-bullets::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      90deg,
+      rgba(122, 122, 122, 1) 10%,
+      rgba(245, 245, 245, 1) 100%
+    );
+    z-index: -1;
+  }
+  .header_home
+    .swiper-container-horizontal
+    > .swiper-pagination-bullets
+    .swiper-pagination-bullet {
+    opacity: 0.7;
+    background-color: transparent;
+    width: 40%;
+  }
+  .header_home
+    .swiper-container-horizontal
+    > .swiper-pagination-bullets
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .header_home
+    .swiper-container-horizontal
+    > .swiper-pagination-bullets
+    .swiper-pagination-bullet:nth-child(1):before {
+    content: "1. Nuove. Imperdibili. Per te";
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    width: 50%;
+  }
+  .header_home
+    .swiper-container-horizontal
+    > .swiper-pagination-bullets
+    .swiper-pagination-bullet:nth-child(2):before {
+    content: "2. Sky Netfilx";
+    display: block;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media (min-width: 1020px) {
+  .image_cover {
+    top: -30%;
+  }
 }
