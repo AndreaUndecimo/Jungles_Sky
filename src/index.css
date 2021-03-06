@@ -70,19 +70,19 @@ img {
   text-transform: uppercase;
 }
 
-.btn-blue {
+.btn-blue-bg {
   font-weight: 700;
   color: #fff;
   background-color: #1b7cff;
 }
 
-.btn-blue-dark {
+.btn-blue-dark-bg {
   font-weight: 700;
   color: #fff;
   background-color: #064497;
 }
 
-.btn-white {
+.btn-white-bg {
   font-weight: 700;
   color: #3093ff;
   background-color: #fff;

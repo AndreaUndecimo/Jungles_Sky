@@ -44,9 +44,14 @@ p.header_home_title {
   font-size: 1.4rem;
 }
 
+.header_home_title p {
+  margin-bottom: 15px;
+}
+
 .skyq_logo {
   width: auto;
   height: 2rem;
+  margin-bottom: 15px;
 }
 
 ul.cinema_list {
@@ -76,15 +81,19 @@ ul.cinema_list li {
 
 .price_main {
   margin: 1rem 0;
-  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100px;
 }
 
+.price_main button {
+  margin-right: 15px;
+}
+
 .price {
   display: flex;
+  margin-right: 15px;
 }
 
 .price_side {
@@ -234,8 +243,8 @@ ul.cinema_list li {
     width: 100%;
     background: linear-gradient(
       90deg,
-      rgba(122, 122, 122, 1) 10%,
-      rgba(245, 245, 245, 1) 100%
+      rgba(122, 122, 122, 0.7) 10%,
+      rgba(245, 245, 245, 0.7) 100%
     );
     z-index: -1;
   }
@@ -243,8 +252,8 @@ ul.cinema_list li {
     .swiper-container-horizontal
     > .swiper-pagination-bullets
     .swiper-pagination-bullet {
-    opacity: 0.7;
     background-color: transparent;
+    opacity: 1;
     width: 40%;
   }
   .header_home
@@ -258,8 +267,7 @@ ul.cinema_list li {
     .swiper-container-horizontal
     > .swiper-pagination-bullets
     .swiper-pagination-bullet:nth-child(1):before {
-    content: "1. Nuove. Imperdibili. Per te";
-    display: block;
+    content: "1. Prova Sky Q e non pensarci più.";
     color: #fff;
     font-weight: 700;
     width: 50%;
@@ -268,8 +276,7 @@ ul.cinema_list li {
     .swiper-container-horizontal
     > .swiper-pagination-bullets
     .swiper-pagination-bullet:nth-child(2):before {
-    content: "2. Sky Netfilx";
-    display: block;
+    content: "2. Pacchetto Sky Cinema";
     font-weight: 700;
     color: rgb(255, 255, 255);
   }

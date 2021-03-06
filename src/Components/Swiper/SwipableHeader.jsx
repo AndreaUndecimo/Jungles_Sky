@@ -43,7 +43,7 @@ const SwipableHeader = () => {
                 Sky&nbsp;Sport e Sky&nbsp;Kids per 30 giorni. E dopo la prova
                 sei libero di decidere: ti abboni o ridai Sky&nbsp;Q.
               </p>
-              <button className="btn btn-blue">Scopri di più</button>
+              <button className="btn btn-blue-bg">Scopri di più</button>
             </div>
             <div className="image_cover">
               <img
@@ -92,7 +92,7 @@ const SwipableHeader = () => {
                       <span className="price_date">per 30 giorni</span>
                     </div>
                   </div>
-                  <button className="btn btn-blue-dark">
+                  <button className="btn btn-blue-dark-bg">
                     Scopri l'offerta
                   </button>
                   <div className="configure_link">

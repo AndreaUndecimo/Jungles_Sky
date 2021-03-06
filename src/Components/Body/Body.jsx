@@ -25,7 +25,7 @@ const Body = () => {
             </p>
           </div>
           <div className="card_btn">
-            <button className="btn btn-white">Configura</button>
+            <button className="btn btn-white-bg">Configura</button>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ const Body = () => {
             </picture>
           </div>
           <div className="viaggi_btn">
-            <button className="btn btn-blue">Configura</button>
+            <button className="btn btn-blue-bg">Configura</button>
           </div>
         </div>
       </div>
